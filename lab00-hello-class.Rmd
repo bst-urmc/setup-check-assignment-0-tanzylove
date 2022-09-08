@@ -1,7 +1,7 @@
 ---
 title: "Lab 00 - Hello Class!"
 date: "2016-09-07 (updated `r Sys.Date()` by TL)"
-author: "Tanzy Love"
+author: "Azalea Love"
 output: 
   tufte::tufte_html:
     tufte_variant: "envisioned"
@@ -14,7 +14,7 @@ output:
 ---
 
 ```{r include=FALSE}
-library(tidyverse)
+library(tufte)
 library(datasauRus)
 options(
   htmltools.dir.version = FALSE, # for blogdown
